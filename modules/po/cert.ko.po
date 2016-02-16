@@ -51,7 +51,7 @@ msgstr "인증서"
 
 #: cert.cpp:106
 msgid "Use a ssl certificate to connect to a server"
-msgstr "서버와 연결할때 SSL 인증서를 사용"
+msgstr "서버와 연결할때 SSL 인증서를 사용 합니다."
 
 #: modules/po/../data/cert/tmpl/index.tmpl:5
 msgid "here"
@@ -62,8 +62,8 @@ msgid ""
 "You already have a certificate set, use the form below to overwrite the "
 "current certificate. Alternatively click {1} to delete your certificate."
 msgstr ""
-"현제 인증서가 설정되있는 상태이나, 이 폼을 사용하면 현재 인증서에 덮어쓸 수 "
-"있습니다. 또는 {1} 를 클릭해서 인증서를 삭제하세요."
+"현재 인증서가 설정되있는 상태이나, 이 폼을 사용하면 현재 인증서에 덮어쓸 수 "
+"있습니다. 또는 {1}을 클릭해서 인증서를 삭제하세요."
 
 #: modules/po/../data/cert/tmpl/index.tmpl:8
 msgid "You do not have a certificate yet."

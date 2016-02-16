@@ -1381,6 +1381,9 @@ class CWebAdminMod : public CModule {
             CTemplate& l_ru = Tmpl.AddRow("LanguageLoop");
             l_ru["Code"] = "ru_RU";
             l_ru["Name"] = "Russian";
+	    CTemplate& l_ko = Tmpl.AddRow("LanguageLoop");
+	    l_ko["Code"] = "ko";
+	    l_ko["Name"] = "Korean";
 #else
             Tmpl["HaveI18N"] = "false";
 #endif
