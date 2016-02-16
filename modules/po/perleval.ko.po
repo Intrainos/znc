@@ -18,7 +18,7 @@ msgstr "perl 코드 평가"
 
 #: perleval.pm:18
 msgid "Only admin can load this module"
-msgstr "어드민만 이 모듈을 불러올 수 있습니다."
+msgstr "관리자만 이 모듈을 불러올 수 있습니다."
 
 #: perleval.pm:29
 #, perl-format
