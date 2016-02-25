@@ -3,18 +3,62 @@ msgstr ""
 "Project-Id-Version: znc 1.7.x\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
+"Last-Translator: Intrainos K. <i@intrainos.net>\n"
 "Language-Team: Korean\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.6\n"
-"Last-Translator: Intrainos K. <i@intrainos.net>\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Language: ko\n"
+
+#: webskins/_default_/tmpl/index.tmpl:6
+msgid "Welcome to ZNC's web interface!"
+msgstr "ZNC의 웹 인터페이스에 오신것을 환영합니다!"
+
+#: webskins/_default_/tmpl/index.tmpl:11
+msgid ""
+"No Web-enabled modules have been loaded. Load modules from IRC (“<code>/msg "
+"*status help</code>” and “<code>/msg *status loadmod &lt;module&gt;</"
+"code>”). Once you have loaded some Web-enabled modules, the menu will expand."
+msgstr ""
+"웹에서 사용가능한 모듈이 로드되있지 않습니다. IRC내에서 로드 해주세요. "
+"(“<code>/msg *status help</code>”를 하신후“<code>/msg *status loadmod &lt;"
+"module&gt;</code>”)을(를) 해주세요. 만약 웹에서 사용가능한 모듈을 로드하시"
+"면, 메뉴가 더 확장될것입니다."
+
+#: webskins/_default_/tmpl/InfoBar.tmpl:2
+msgid "-Guest-"
+msgstr "-게스트-"
+
+#: webskins/_default_/tmpl/InfoBar.tmpl:5
+#, fuzzy
+msgid "Logged in as: {1} (from {2})"
+msgstr "로그인 됨: {1} ({2} 에서)"
+
+#: webskins/_default_/tmpl/Menu.tmpl:4
+msgid "Home"
+msgstr "홈"
+
+#: webskins/_default_/tmpl/Menu.tmpl:7
+msgid "Global Modules"
+msgstr "글로벌 모듈 "
+
+#: webskins/_default_/tmpl/Menu.tmpl:20
+msgid "User Modules"
+msgstr "유저 "
+
+#: webskins/_default_/tmpl/Menu.tmpl:35
+msgid "Network Modules ({1})"
+msgstr "네트워크 모듈 ({1})"
+
+#: webskins/_default_/tmpl/LoginBar.tmpl:3
+msgid "Logout"
+msgstr "로그아웃"
 
 #: ClientCommand.cpp:51
 msgid "You must be connected with a network to use this command"
-msgstr "네트워크에  후에 이 명령어를 사용할 수 있습니다."
+msgstr "네트워크에 연결하신 후에 이 명령어를 사용할 수 있습니다."
 
 #: ClientCommand.cpp:58
 msgid "Usage: ListNicks <#chan>"
@@ -32,7 +76,3 @@ msgstr "[{1}]안에 있지않습니다. (시도)"
 #: ClientCommand.cpp:79
 msgid "No nicks on [{1}]"
 msgstr "[{1}]안에 닉네임이 없습니다"
-
-#: webskins/_default_/tmpl/LoginBar.tmpl:3
-msgid "Logout"
-msgstr "로그아웃"
