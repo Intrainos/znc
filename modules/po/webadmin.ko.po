@@ -1,0 +1,1212 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: znc 1.7.x\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: Korean\n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.8.6\n"
+"Last-Translator: Intrainos K. <i@intrainos.net>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ko\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: modules/po/../data/webadmin/tmpl/index.tmpl:5
+msgid "Welcome to the ZNC webadmin module."
+msgstr "ZNC 웹어드민 모듈에 오신것을 환영합니다."
+
+#: modules/po/../data/webadmin/tmpl/index.tmpl:6
+msgid ""
+"All changes you make will be in effect immediately after you submitted them."
+msgstr "모든 수정은 당신이 전송을 한후에 효과가 나타납니다."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_chan.tmpl:12
+msgid "Channel Info"
+msgstr "채널 정보"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_chan.tmpl:17
+msgid "Channel Name:"
+msgstr "채널 이름:"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_chan.tmpl:19
+msgid "The channel name."
+msgstr "채널 이름입니다."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_chan.tmpl:24
+msgid "Key:"
+msgstr "비밀번호"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_chan.tmpl:26
+msgid "The password of the channel, if there is one."
+msgstr "만약 채널의 패스워드가 있는경우 사용합니다."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_chan.tmpl:30
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:235
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:254
+msgid "Buffer Size:"
+msgstr "버퍼 사이즈:"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_chan.tmpl:32
+msgid "The buffer count."
+msgstr "버퍼 저장용량입니다."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_chan.tmpl:36
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:229
+msgid "Default Modes:"
+msgstr "기본 모드:"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_chan.tmpl:38
+msgid "The default modes of the channel."
+msgstr "채널의 기본 모드입니다."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_chan.tmpl:46
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:264
+msgid "Flags"
+msgstr "플래그"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_chan.tmpl:51
+msgid "Save to config"
+msgstr "컨피그에 저장하기"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_chan.tmpl:67
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:399
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:270
+msgid "Module {1}"
+msgstr "{1} 모듈"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_chan.tmpl:75
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:408
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:278
+msgid "Save and return"
+msgstr "저장후 돌아가기"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_chan.tmpl:76
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:409
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:279
+msgid "Save and continue"
+msgstr "저장후 계속하기"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_chan.tmpl:78
+msgid "Add Channel and return"
+msgstr "채널 추가후 돌아가기"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_chan.tmpl:79
+msgid "Add Channel and continue"
+msgstr "채널 추가후 계속"
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:6
+msgid "Listen Port(s)"
+msgstr "사용 포트"
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:13
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:90
+msgid "Port"
+msgstr "포트"
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:14
+msgid "BindHost"
+msgstr "BindHost"
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:15
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:91
+msgid "SSL"
+msgstr "SSL"
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:16
+msgid "IPv4"
+msgstr "IPv4"
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:17
+msgid "IPv6"
+msgstr "IPv6"
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:18
+msgid "IRC"
+msgstr "IRC"
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:19
+msgid "HTTP"
+msgstr "HTTP"
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:20
+msgid "URIPrefix"
+msgstr "URI프리픽스"
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:21
+#: modules/po/../data/webadmin/tmpl/listusers.tmpl:29
+msgid "Delete"
+msgstr "삭제"
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:53
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:140
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:192
+msgid "Del"
+msgstr "삭제"
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:56
+msgid ""
+"To delete port which you use to access webadmin itself, either connect to "
+"webadmin via another port, or do it in IRC (/znc DelPort)"
+msgstr ""
+"당신이 지금 웹어드민에 접속하고있는 포트는 삭제할려면, 다른 포트로 웹어드민"
+"에 접속하시거나, IRC에서 삭제해주세요. (/znc DelPort)"
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:56
+msgid "Current"
+msgstr "현재"
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:72
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:123
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:173
+#: modules/po/../data/webadmin/tmpl/listusers.tmpl:15
+msgid "Add"
+msgstr "추가"
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:86
+msgid "Settings"
+msgstr "설정"
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:90
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:362
+msgid "Skin:"
+msgstr "스킨:"
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:94
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:368
+msgid "Default"
+msgstr "기본"
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:102
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:79
+msgid "Status Prefix:"
+msgstr "status 프리픽스:"
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:104
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:81
+msgid "The prefix for the status and module queries."
+msgstr "status와 모듈에 대한 프리픽스 입니다."
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:105
+msgid "Default for new users only."
+msgstr "새로운 유저를 위한 기본설정용입니다."
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:110
+msgid "Maximum Buffer Size:"
+msgstr "최대 버퍼 사이즈:"
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:112
+msgid "Sets the global Max Buffer Size a user can have."
+msgstr "유저가 가질수있는 최대 버퍼를 설정합니다,"
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:117
+msgid "Connect Delay:"
+msgstr "연결 딜레이:"
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:119
+#, fuzzy
+msgid ""
+"The time between connection attempts to IRC servers, in seconds. This "
+"affects the connection between ZNC and the IRC server; not the connection "
+"between your IRC client and ZNC."
+msgstr ""
+"몇 초마다 IRC서버에 연결을 시도합니다.. 이 값은 ZNC와 IRC서버간의 연결 시도입"
+"니다; ZNC와 IRC 서버간의 시도가 아닙니다."
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:124
+msgid "Server Throttle:"
+msgstr "서버 과부화:"
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:126
+#, fuzzy
+msgid ""
+"The minimal time between two connect attempts to the same hostname, in "
+"seconds. Some servers refuse your connection if you reconnect too fast."
+msgstr ""
+"같은 호스트네임을 가진 두 연결간의 최소간격의 시간입니다. 어떤 서버는 재접속"
+"이 너무 빠를경우 서버연결을 끊습니다."
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:131
+msgid "Anonymous Connection Limit per IP:"
+msgstr " IP당 익명 연결 제한:"
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:133
+msgid "Limits the number of unidentified connections per IP."
+msgstr "인증을 하지않은 연결에 대한 IP당 제한수 입니다."
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:138
+msgid "Protect Web Sessions:"
+msgstr "보호된 웹 세션:"
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:140
+msgid "Disallow IP changing during each web session"
+msgstr "거부된 IP를 바꾸면 모든 웹 세션이 바뀝니다."
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:145
+msgid "Hide ZNC Version:"
+msgstr "ZNC버전 숨기기:"
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:147
+msgid "Hide version number from non-ZNC users"
+msgstr "ZNC유저가 아닌사람에게 버전을 숨깁니다."
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:152
+msgid "MOTD:"
+msgstr "MOTD:"
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:156
+msgid "“Message of the Day”, sent to all ZNC users on connect."
+msgstr ""
+"“Message of the Day(오늘의 메세지)”입니다. 연결하는 모든 ZNC 유저들에게 보내"
+"집시다."
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:164
+msgid "Global Modules"
+msgstr "글로벌 "
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:170
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:125
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:168
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:176
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:216
+msgid "Name"
+msgstr "이름"
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:171
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:169
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:217
+msgid "Arguments"
+msgstr "인수값"
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:172
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:170
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:218
+msgid "Description"
+msgstr "설명"
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:173
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:172
+msgid "Loaded by networks"
+msgstr "네트워크로 로드됨."
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:174
+msgid "Loaded by users"
+msgstr "유저로 로드됨."
+
+#: modules/po/../data/webadmin/tmpl/settings.tmpl:231
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:419
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:175
+msgid "Save"
+msgstr "저장"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:15
+msgid "Authentication"
+msgstr "인증"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:19
+msgid "Username:"
+msgstr "유저네임:"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:29
+msgid "Please enter a username."
+msgstr "유저네임을 입력해주세요."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:34
+msgid "Password:"
+msgstr "비밀번호:"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:36
+msgid "Please enter a password."
+msgstr "비밀번호를 입력해주세요."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:39
+msgid "Confirm password:"
+msgstr "비밀번호 확인:"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:41
+msgid "Please re-type the above password."
+msgstr "같은 비밀번호를 재입력해주세요."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:44
+msgid "Allowed IPs:"
+msgstr "허용 IP:"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:48
+msgid ""
+"Leave empty to allow connections from all IPs.<br/>Otherwise, one entry per "
+"line, wildcards * and ? are available."
+msgstr ""
+"아무것도 입력하지 않으면 모든 IP에서 접속이 가능합니다..<br/>그렇지 않으면, "
+"한줄에 하나씩 입력하거나, 와일드카드 * 랑 ? 가 ."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:56
+msgid "IRC Information"
+msgstr "IRC정보"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:58
+msgid ""
+"Nick, AltNick, Ident, RealName and QuitMsg can be left empty to use default "
+"values."
+msgstr ""
+"닉네임, 보조 닉네임, 이름, 진짜 이름 및 나가는 메세지는 입력하지 않고 기본 값"
+"을 쓸 수 있습니다."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:63
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:35
+msgid "Nickname:"
+msgstr "닉네임:"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:65
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:37
+msgid "Your nickname on IRC."
+msgstr "IRC에서의 당신의 닉네임입니다."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:68
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:40
+msgid "Alt. Nickname:"
+msgstr "보조 닉네임:"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:70
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:42
+msgid "Your secondary nickname, if the first is not available on IRC."
+msgstr ""
+"만약 첫번째 닉네임이 IRC에서 사용할 수 없으면 쓸 수 있는 두번째 닉네임 입니"
+"다."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:74
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:46
+msgid "Ident:"
+msgstr "이름:"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:76
+msgid "The Ident is sent to server as username."
+msgstr "서버에 유저네임으로 전송됩니다."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:85
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:51
+msgid "Realname:"
+msgstr "진짜 이름:"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:87
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:53
+msgid "Your real name."
+msgstr "IRC에서의 당신의 진짜 이름입니다."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:93
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:58
+msgid "BindHost:"
+msgstr "BindHost:"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:99
+msgid "DCCBindHost:"
+msgstr "DCCBindHost:"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:106
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:65
+msgid "Quit Message:"
+msgstr "나가는 메세지:"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:108
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:67
+msgid "You may define a Message shown, when you quit IRC."
+msgstr "만약 IRC에서 나갈때 에 매새지가 보여집니다."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:116
+#: modules/po/../data/webadmin/tmpl/listusers.tmpl:17
+#: modules/po/../data/webadmin/tmpl/traffic.tmpl:39
+msgid "Networks"
+msgstr "네트워크:"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:126
+#: modules/po/../data/webadmin/tmpl/listusers.tmpl:18
+msgid "Clients"
+msgstr "클라이언트"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:127
+msgid "Current Server"
+msgstr "현재 서버"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:128
+msgid "Nick"
+msgstr "닉"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:130
+msgid "← Add a network (opens in same page)"
+msgstr "← 네트워크 추가 (같은 페이지에서 열립니다)"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:140
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:192
+#: modules/po/../data/webadmin/tmpl/listusers.tmpl:27
+msgid "Edit"
+msgstr "수정"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:154
+msgid ""
+"You will be able to add + modify networks here after you have cloned the "
+"user."
+msgstr "유저를 복제했을 경우 여기서 네트워크를 추가 + 수정할 수 있습니다."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:156
+msgid ""
+"You will be able to add + modify networks here after you have created the "
+"user."
+msgstr "유저를 했을 경우 여기서 네트워크를 추가 + 수정할 수 있습니다."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:162
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:210
+msgid "Modules"
+msgstr "모듈"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:171
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:219
+msgid "Loaded globally"
+msgstr "글로벌로 로드됨"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:225
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:164
+msgid "Channels"
+msgstr "채널"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:231
+msgid ""
+"These are the default modes ZNC will set when you join an empty channel."
+msgstr "ZNC가 만약 빈 채널에 들어갔을 경우 모드를 설정하는 값입니다.."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:232
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:238
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:257
+msgid "Empty = use standard value"
+msgstr "비었을 경우 값을 사용합니다."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:237
+msgid ""
+"This is the amount of lines that the playback buffer will store for channels "
+"before dropping off the oldest line. The buffers are stored in the memory by "
+"default."
+msgstr ""
+"얼마나 많은 오래된 채널 버퍼를 저장할지 설정합니다.버퍼는 기본적으로 매모리"
+"에 저장됩니다."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:245
+msgid "Queries"
+msgstr "쿼리"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:249
+msgid "Max Buffers:"
+msgstr "최대 버퍼:"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:251
+msgid "Maximum number of query buffers. 0 is unlimited."
+msgstr "최대 쿼리 버퍼 숫자입니다. 0은 무제한입니다."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:256
+#, fuzzy
+msgid ""
+"This is the amount of lines that the playback buffer will store for queries "
+"before dropping off the oldest line. The buffers are stored in the memory by "
+"default."
+msgstr ""
+"이 값은 얼마나 많은 줄의 오래된 쿼리 버퍼를 저장할지 설정합니다.버퍼는 기본적"
+"으로 매모리에 저장됩니다."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:279
+msgid "ZNC Behavior"
+msgstr "ZNC 행동"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:280
+msgid ""
+"Any of the following text boxes can be left empty to use their default value."
+msgstr ""
+"Any of the following text boxes can be left empty to use their default "
+"value.\n"
+"이 항목의 모든 텍스트 박스들은 전부 남겨놓으면 기본 값으로 설정됩니다."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:284
+msgid "Timestamp Format:"
+msgstr "타임스탬프 표기법:"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:286
+#, fuzzy
+msgid ""
+"The format for the timestamps used in buffers, for example [%H:%M:%S]. This "
+"setting is ignored in new IRC clients, which use server-time. If your client "
+"supports server-time, change timestamp format in client settings instead."
+msgstr ""
+"버퍼에서 사용할 타임스탬프 포멧입니다, 예를 들어서 [%H:%M:%S]. 이설정은 새  "
+"IRC 클라이언트에서는 무시됩니다, 만약 클라이언트에서 server-time을 지원해서 "
+"사용하실경우 타임스탬프는 클라이언트 설정으로 대채됩니다."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:289
+msgid "Timezone:"
+msgstr "타임존:"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:292
+msgid "E.g. <code>Europe/Berlin</code>, or <code>GMT-6</code>"
+msgstr "예) <code>Europe/Berlin</code>,  <code>GMT-6</code>"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:300
+msgid "Character encoding used between IRC client and ZNC."
+msgstr "IRC클라이언트와 ZNC에서 사용하는 문자 인코딩."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:301
+msgid "Client encoding:"
+msgstr "채널 인코딩:"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:306
+msgid "Join Tries:"
+msgstr "들어가기 시도 :"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:308
+msgid ""
+"This defines how many times ZNC tries to join a channel, if the first join "
+"failed, e.g. due to channel mode +i/+k or if you are banned."
+msgstr ""
+"만약 첫번째 들어가기 시도가 실패하면 ZNC가 얼마나 채널에 들어가기를 시도할지 "
+"설정합니다. 예) 채널모드 +i/+k 또는 밴을 당했을 경우."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:311
+msgid "Join speed:"
+msgstr "들어가는 속도:"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:313
+msgid ""
+"How many channels are joined in one JOIN command. 0 is unlimited (default). "
+"Set to small positive value if you get disconnected with “Max SendQ Exceeded”"
+msgstr ""
+"얼마나 많은 채널을 한번의 JOIN 명령어로 들어갈지 설정합니다. 0 는 무제한입니"
+"다(기본값). 작은 값을 넣은경우 “Max SendQ Exceeded”와 함께 연결해제가 될 수 "
+"있습니다."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:316
+msgid "Max IRC Networks Number:"
+msgstr "최대 IRC 네트워크 숫자"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:318
+msgid "Maximum number of IRC networks allowed for this user."
+msgstr "이 유저에 대한 최대 IRC 네트워크 접속가능 숫자입니다."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:321
+msgid "Substitutions"
+msgstr "대채"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:323
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:331
+#, fuzzy
+msgid "CTCP Replies:"
+msgstr "CTCP 답:"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:327
+msgid "One reply per line. Example: <code>TIME Buy a watch!</code>"
+msgstr "줄당 한개의 응답. 예: <code>TIME Buy a watch!</code>"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:328
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:344
+msgid "{1} are available"
+msgstr "{1}은(는) 사용가능합니다."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:330
+#, fuzzy
+msgid "Empty value means this CTCP request will be ignored"
+msgstr "없는 값의 경우 이 CTCP 요청은 무시될것 입니다."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:336
+msgid "Request"
+msgstr "요청"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:337
+msgid "Response"
+msgstr "응답"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:366
+msgid "- Global -"
+msgstr "-  -글로벌"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:372
+msgid "No other skins found"
+msgstr "다른 스킨이 없습니다."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:378
+msgid "Language:"
+msgstr "언어"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:411
+msgid "Clone and return"
+msgstr "복제 후 돌아가기"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:412
+msgid "Clone and continue"
+msgstr "복제 후 계속하기"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:414
+msgid "Create and return"
+msgstr "만들고 돌아가기"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:415
+msgid "Create and continue"
+msgstr "만들고 계속하기"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:421
+#: modules/po/../data/webadmin/tmpl/listusers.tmpl:28
+msgid "Clone"
+msgstr "복제"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:423
+msgid "Create"
+msgstr "만들기"
+
+#: modules/po/../data/webadmin/tmpl/encoding_settings.tmpl:6
+msgid "ZNC is compiled without encodings support. {1} is required for it."
+msgstr ""
+"ZNC가 문자 인코딩 지원을 제외하고 컴파일 되었습니다. {1} 이(가) 필요합니다."
+
+#: modules/po/../data/webadmin/tmpl/encoding_settings.tmpl:11
+msgid "Legacy mode is disabled by modpython."
+msgstr "레거시모드가 modpython에 의해 비활성화 됬습니다."
+
+#: modules/po/../data/webadmin/tmpl/encoding_settings.tmpl:18
+msgid "Don't ensure any encoding at all (legacy mode, not recommended)"
+msgstr "인코딩을 하지 않습니다. (레거시 모드, 비권장됨)"
+
+#: modules/po/../data/webadmin/tmpl/encoding_settings.tmpl:22
+msgid "Try to parse as UTF-8 and as {1}, send as UTF-8 (recommended)"
+msgstr "UTF-8랑 {1}(으)로 파싱하고, UTF-8로 보냅니다. ()"
+
+#: modules/po/../data/webadmin/tmpl/encoding_settings.tmpl:26
+msgid "Try to parse as UTF-8 and as {1}, send as {1}"
+msgstr "UTF-8랑 {1}(으)로 파싱하고, {1}(으)로 보냅니다."
+
+#: modules/po/../data/webadmin/tmpl/encoding_settings.tmpl:30
+msgid "Parse and send as {1} only"
+msgstr "{1}(으)로만 파싱하고 보냅니다."
+
+#: modules/po/../data/webadmin/tmpl/encoding_settings.tmpl:36
+msgid "E.g. <code>UTF-8</code>, or <code>ISO-8859-15</code>"
+msgstr "예) <code>UTF-8</code> 또는 <code>ISO-8859-15</code>"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:8
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:11
+msgid "&lt;password&gt;"
+msgstr "&lt;비밀번호&gt;"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:11
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:12
+msgid "&lt;network&gt;"
+msgstr "&lt;네트워크&gt;"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:14
+msgid ""
+"To connect to this network from your IRC client, you can set the server "
+"password field as <code>{1}</code> or username field as <code>{2}</code>"
+msgstr ""
+"IRC클라이언트에서 네트워크로 접속을 하실때, 서버 비밀번호칸에 <code>{1}</"
+"code> 로 설정하시거나 또는 유저네임에 <code>{2}</code>로 하실 수 있습니다."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:24
+msgid "Network Info"
+msgstr "네트워크 정보"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:25
+msgid ""
+"Nick, AltNick, Ident, RealName, BindHost can be left empty to use the value "
+"from the user."
+msgstr ""
+"닉네임, 보조닉네임, 이름, 진짜이름, BindHost는 빈 값으로 남겨놓을시 유저가 설"
+"정한 값으로 적용됩니다."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:29
+msgid "Network Name:"
+msgstr "네트워크 이름:"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:31
+msgid "The name of the IRC network."
+msgstr "IRC 네트워크의 이름"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:48
+msgid "Your ident."
+msgstr "이름:"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:71
+msgid "Active:"
+msgstr "활성화:"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:73
+msgid "Connect to IRC &amp; automatically re-connect"
+msgstr "IRC에 자동접속 &amp; 자동 재접속"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:77
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:84
+msgid "Servers of this IRC network:"
+msgstr "이 IRC 네트워크에 대한 서버:"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:81
+msgid "One server per line, “host [[+]port] [password]”, + means SSL"
+msgstr ""
+"한서버당 한줄씩, “호스트 [[+]포트] [비밀번호 ]”로 입력해주세요, + 는 SSL 입니"
+"다."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:89
+msgid "Hostname"
+msgstr "호스트네임:"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:92
+msgid "Password"
+msgstr "비밀번호:"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:104
+msgid "SHA-256 fingerprints of trusted SSL certificates of this IRC network:"
+msgstr "이 네트워크의 신뢰하는 SSL인증서의 SHA-256 핑거프린트:"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:108
+msgid ""
+"When these certificates are encountered, checks for hostname, expiration "
+"date, CA are skipped"
+msgstr ""
+"인증서가 발견될 시에, 호스트 네임, 남은 기한을 확인합니다. CA는 스킵됩니다."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:112
+msgid "Flood protection:"
+msgstr "플러드 보호:"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:115
+msgid ""
+"You might enable the flood protection. This prevents “excess flood” errors, "
+"which occur, when your IRC bot is command flooded or spammed. After changing "
+"this, reconnect ZNC to server."
+msgstr ""
+"만약 플러드 보호를 사용할 시에, 당신의 봇이 명령어 플러나 스팸을 당하는 중일"
+"때 \"excess flood” 오류를 예방줍니다."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:118
+msgctxt "Flood Protection"
+msgid "Enabled"
+msgstr "사용됨"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:122
+msgid "Flood protection rate:"
+msgstr "플러드 보호 시작 값:"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:125
+msgid ""
+"The number of seconds per line. After changing this, reconnect ZNC to server."
+msgstr "초당 줄수 입니다. 변경시에 ZNC가 서버에 재접속합니다."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:128
+msgid "{1} seconds per line"
+msgstr "{1} 초당 한줄"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:132
+#, fuzzy
+msgid "Flood protection burst:"
+msgstr "돌발 플러드 보호:"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:135
+msgid ""
+"Defines the number of lines, which can be sent immediately. After changing "
+"this, reconnect ZNC to server."
+msgstr ""
+"즉시 전송할 수 있는 최대 줄수를 설정합니다. 변경시에, ZNC가 서버에 재접속합니"
+"다."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:138
+msgid "{1} lines can be sent immediately"
+msgstr "{1} 줄까지는 즉시 전송됩니다,"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:142
+msgid "Channel join delay:"
+msgstr "채널 접속 딜레이:"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:145
+msgid ""
+"Defines the delay in seconds, until channels are joined after getting "
+"connected."
+msgstr "서버의 접속후 채널에 들어가는 초당 딜레이를 설정합니다."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:148
+msgid "{1} seconds"
+msgstr "{1} 초"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:153
+msgid "Character encoding used between ZNC and IRC server."
+msgstr "IRC클라이언트와 ZNC에서 사용하는 문자 인코딩."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:154
+msgid "Server encoding:"
+msgstr "서버 인코딩:"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:166
+msgid ""
+"You will be able to add + modify channels here after you created the network."
+msgstr "유저를 만들었을 경우 여기서 네트워크를 추가 + 수정할 수 있습니다."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:177
+msgid "CurModes"
+msgstr "현재모드"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:178
+msgid "DefModes"
+msgstr "모드설정"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:179
+msgid "BufferSize"
+msgstr "버퍼사이즈"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:180
+msgid "Options"
+msgstr "옵션"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:182
+msgid "← Add a channel (opens in same page)"
+msgstr "← 채널 추가 (같은 페이지에서 열립니다)"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:220
+msgid "Loaded by user"
+msgstr "유저로 로드됨."
+
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:281
+msgid "Add Network and return"
+msgstr "네트워크 추가후 돌아가기"
+
+#: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:282
+msgid "Add Network and continue"
+msgstr "네트워크 추가후 계속"
+
+#: modules/po/../data/webadmin/tmpl/listusers.tmpl:16
+msgid "Username"
+msgstr "유저네임"
+
+#: modules/po/../data/webadmin/tmpl/del_network.tmpl:5
+msgid "Confirm Network Deletion"
+msgstr "네트워크 삭제 확인"
+
+#: modules/po/../data/webadmin/tmpl/del_network.tmpl:9
+msgid "Are you sure you want to delete network “{2}” of user “{1}”?"
+msgstr "”{1}” 유저의 ”{2}” 네트워크를 삭제합니까?"
+
+#: modules/po/../data/webadmin/tmpl/del_network.tmpl:14
+#: modules/po/../data/webadmin/tmpl/del_user.tmpl:14
+msgid "Yes"
+msgstr "네"
+
+#: modules/po/../data/webadmin/tmpl/del_network.tmpl:17
+#: modules/po/../data/webadmin/tmpl/del_user.tmpl:17
+msgid "No"
+msgstr "아니요"
+
+#: modules/po/../data/webadmin/tmpl/traffic.tmpl:7
+msgid "Information"
+msgstr "정보"
+
+#: modules/po/../data/webadmin/tmpl/traffic.tmpl:13
+msgid "Uptime"
+msgstr "구동시간"
+
+#: modules/po/../data/webadmin/tmpl/traffic.tmpl:18
+msgid "Total Users"
+msgstr "유저 통계"
+
+#: modules/po/../data/webadmin/tmpl/traffic.tmpl:22
+msgid "Total Networks"
+msgstr "네트워크 통계"
+
+#: modules/po/../data/webadmin/tmpl/traffic.tmpl:26
+#: modules/po/../data/webadmin/tmpl/traffic.tmpl:43
+msgid "Attached Networks"
+msgstr "추가되있는 네트워크"
+
+#: modules/po/../data/webadmin/tmpl/traffic.tmpl:30
+msgid "Total Client Connections"
+msgstr "클라이언트 연결 통계"
+
+#: modules/po/../data/webadmin/tmpl/traffic.tmpl:34
+msgid "Total IRC Connections"
+msgstr "IRC 연결 통계"
+
+#: modules/po/../data/webadmin/tmpl/traffic.tmpl:47
+msgid "Client Connections"
+msgstr "클라이언트 연결"
+
+#: modules/po/../data/webadmin/tmpl/traffic.tmpl:51
+msgid "IRC Connections"
+msgstr "IRC 연결"
+
+#: modules/po/../data/webadmin/tmpl/traffic.tmpl:63
+#: modules/po/../data/webadmin/tmpl/traffic.tmpl:72
+#: modules/po/../data/webadmin/tmpl/traffic.tmpl:89
+#: modules/po/../data/webadmin/tmpl/traffic.tmpl:117
+msgid "Total"
+msgstr "통계"
+
+#: modules/po/../data/webadmin/tmpl/traffic.tmpl:70
+#: modules/po/../data/webadmin/tmpl/traffic.tmpl:115
+msgctxt "Traffic"
+msgid "In"
+msgstr "들어옴"
+
+#: modules/po/../data/webadmin/tmpl/traffic.tmpl:71
+#: modules/po/../data/webadmin/tmpl/traffic.tmpl:116
+msgctxt "Traffic"
+msgid "Out"
+msgstr "나감"
+
+#: modules/po/../data/webadmin/tmpl/traffic.tmpl:77
+#: modules/po/../data/webadmin/tmpl/traffic.tmpl:104
+msgid "Users"
+msgstr "유저"
+
+#: modules/po/../data/webadmin/tmpl/traffic.tmpl:106
+msgid "Traffic"
+msgstr "트래픽"
+
+#: modules/po/../data/webadmin/tmpl/traffic.tmpl:113
+msgid "User"
+msgstr "유저"
+
+#: modules/po/../data/webadmin/tmpl/traffic.tmpl:114
+msgid "Network"
+msgstr "네트워크"
+
+#: modules/po/../data/webadmin/tmpl/del_user.tmpl:5
+msgid "Confirm User Deletion"
+msgstr "유저 삭제 확인"
+
+#: modules/po/../data/webadmin/tmpl/del_user.tmpl:9
+msgid "Are you sure you want to delete user “{1}”?"
+msgstr "{1} 유저를 삭제합니까?"
+
+#: webadmin.cpp:91 webadmin.cpp:1833
+msgid "Global Settings"
+msgstr "글로벌 "
+
+#: webadmin.cpp:92
+msgid "Your Settings"
+msgstr "당신의 설정"
+
+#: webadmin.cpp:94 webadmin.cpp:1645
+msgid "Traffic Info"
+msgstr "트래픽 정보"
+
+#: webadmin.cpp:97 webadmin.cpp:1624
+msgid "Manage Users"
+msgstr "유저 관리"
+
+#: webadmin.cpp:188
+msgid "Invalid Submission [Username is required]"
+msgstr "잘못된 칸 입력 [유저네임이 필요합니다]"
+
+#: webadmin.cpp:201
+msgid "Invalid Submission [Passwords do not match]"
+msgstr "잘못된 칸 입력 [비밀번호가 일치하지 않습니다]"
+
+#: webadmin.cpp:383 webadmin.cpp:411 webadmin.cpp:1152 webadmin.cpp:2015
+msgid "Unable to load module [{1}]: {2}"
+msgstr "[{1}] 모듈을 불러오지 못했습니다: {2}"
+
+#: webadmin.cpp:388 webadmin.cpp:416
+msgid "Unable to load module [{1}] with arguments [{2}]"
+msgstr "[{1}]모듈에 변수 [{2}]를 사용한 모듈을 불러오지 못했습니다."
+
+#: webadmin.cpp:497 webadmin.cpp:601 webadmin.cpp:626 webadmin.cpp:648
+#: webadmin.cpp:682 webadmin.cpp:1219
+msgid "No such user"
+msgstr "유저가 없습니다 ."
+
+#: webadmin.cpp:510 webadmin.cpp:542 webadmin.cpp:571 webadmin.cpp:587
+msgid "No such user or network"
+msgstr "유저 또는 네트워크가 없습니다."
+
+#: webadmin.cpp:552
+msgid "No such channel"
+msgstr "채널이 없습니다,"
+
+#: webadmin.cpp:618
+msgid "Please don't delete yourself, suicide is not the answer!"
+msgstr "당신을 지우지 마세요, 자살은 답이 아닙니다!"
+
+#: webadmin.cpp:691 webadmin.cpp:912 webadmin.cpp:1283
+msgid "Edit User [{1}]"
+msgstr "]{1}] 유저 편집 "
+
+#: webadmin.cpp:695 webadmin.cpp:941
+msgid "Edit Network [{1}]"
+msgstr "[{1}] 네트워크 편집"
+
+#: webadmin.cpp:705
+msgid "Edit Channel [{1}] of Network [{2}] of User [{3}]"
+msgstr "[{3}] 유저의 [{2}] 네트워크에 있는 [{1}] 채널 편집"
+
+#: webadmin.cpp:712
+msgid "Edit Channel [{1}]"
+msgstr "[{1}] 채널 편집"
+
+#: webadmin.cpp:719
+msgid "Add Channel to Network [{1}] of User [{2}]"
+msgstr "[{3}] 유저의 [{2}] 네트워크에 채널을 "
+
+#: webadmin.cpp:724
+msgid "Add Channel"
+msgstr "채널 추가"
+
+#: webadmin.cpp:731 webadmin.cpp:1471
+msgid "Auto Clear Chan Buffer"
+msgstr "자동 채널 버퍼 삭제"
+
+#: webadmin.cpp:733
+msgid "Automatically Clear Channel Buffer After Playback"
+msgstr "자동으로 채널 버퍼를 보여준후 버퍼를 자동으로 지웁니다."
+
+#: webadmin.cpp:741
+msgid "Detached"
+msgstr "제외됨"
+
+#: webadmin.cpp:748
+msgid "Enabled"
+msgstr "허용됨"
+
+#: webadmin.cpp:772
+msgid "Channel name is a required argument"
+msgstr "채널이름은 인수 값이 필요합니다."
+
+#: webadmin.cpp:781
+msgid "Channel [{1}] already exists"
+msgstr "채널 {1} 은(는) 이미 있습니다."
+
+#: webadmin.cpp:788
+msgid "Could not add channel [{1}]"
+msgstr "채널 추가 불가능:[{1}]"
+
+#: webadmin.cpp:836
+msgid "Channel was added/modified, but config file was not written"
+msgstr "채널이 추가/수정되었으나, 컨피그 파일에 적용되지 않았습니다."
+
+#: webadmin.cpp:920
+msgid "Edit Network [{1}] of User [{2}]"
+msgstr "[{3}] 유저의 [{2}] 네트워크를 편집"
+
+#: webadmin.cpp:978 webadmin.cpp:1044
+msgid ""
+"Network number limit reached. Ask an admin to increase the limit for you, or "
+"delete unneeded networks from Your Settings."
+msgstr ""
+"네트워크 개수가 제한에 도달했습니다. 관리자에게 제한을 늘리기를 요청하거나, "
+"또는 사용하지 않는 네트워크를 제거하세요"
+
+#: webadmin.cpp:986
+msgid "Add Network for User [{1}]"
+msgstr "[{1}]유저의 네트워크 추가"
+
+#: webadmin.cpp:992
+msgid "Add Network"
+msgstr "네트워크 추가"
+
+#: webadmin.cpp:1038
+msgid "Network name is a required argument"
+msgstr "네트워크 이릅은 인자값이 필요합니다."
+
+#: webadmin.cpp:1159 webadmin.cpp:2021
+msgid "Unable to reload module [{1}]: {2}"
+msgstr "[{1}] 모듈을 다시 불러오지 못했습니다: {2}"
+
+#: webadmin.cpp:1196
+msgid "Network was added/modified, but config file was not written"
+msgstr "네트워크가 추가/수정되었으나, 컨피그 파일에 적용되지 않았습니다."
+
+#: webadmin.cpp:1225
+msgid "That network doesn't exist for this user"
+msgstr "네트워크가 이 유저에게 없습니다."
+
+#: webadmin.cpp:1242
+msgid "Network was deleted, but config file was not written"
+msgstr "네트워크가 삭제되었으나, 컨피그 파일에 적용되지 않았습니다."
+
+#: webadmin.cpp:1256
+msgid "That channel doesn't exist for this network"
+msgstr "이 네트워크에 채널이 없습니다."
+
+#: webadmin.cpp:1265
+msgid "Channel was deleted, but config file was not written"
+msgstr "채널이 삭제되었으나, 컨피그 파일에 적용되지 않았습니다."
+
+#: webadmin.cpp:1290
+msgid "Clone User [{1}]"
+msgstr "[{1}] 유저 복제"
+
+#: webadmin.cpp:1473
+msgid ""
+"Automatically Clear Channel Buffer After Playback (the default value for new "
+"channels)"
+msgstr "자동으로 채널 버퍼를 지웁니다. (새로운 채널의 기본 값입니다.)"
+
+#: webadmin.cpp:1483
+msgid "Multi Clients"
+msgstr "다중 클라이언트"
+
+#: webadmin.cpp:1490
+msgid "Append Timestamps"
+msgstr "타임스탬프 추가"
+
+#: webadmin.cpp:1497
+#, fuzzy
+msgid "Prepend Timestamps"
+msgstr "앞에 타임스탬프 추가"
+
+#: webadmin.cpp:1505
+msgid "Deny LoadMod"
+msgstr "LoadMod 거부"
+
+#: webadmin.cpp:1512
+msgid "Admin"
+msgstr "관리자"
+
+#: webadmin.cpp:1522
+msgid "Deny SetBindHost"
+msgstr "BindHost 설정"
+
+#: webadmin.cpp:1530
+msgid "Auto Clear Query Buffer"
+msgstr "쿼리 버퍼 자동 삭제"
+
+#: webadmin.cpp:1532
+msgid "Automatically Clear Query Buffer After Playback"
+msgstr "자동으로 쿼리 버퍼를 보여준후 버퍼를 자동으로 지웁니다."
+
+#: webadmin.cpp:1556
+msgid "Invalid Submission: User {1} already exists"
+msgstr "잘못된 칸 입력: 유저 {1} 은(는) 이미 있습니다."
+
+#: webadmin.cpp:1578 webadmin.cpp:1589
+msgid "Invalid submission: {1}"
+msgstr "잘못된 칸 입력: {1}"
+
+#: webadmin.cpp:1584
+msgid "User was added, but config file was not written"
+msgstr "유저가 추가되었으나, 컨피그 파일에 적용되지 않았습니다."
+
+#: webadmin.cpp:1595
+msgid "User was edited, but config file was not written"
+msgstr "유저가 었으나, 컨피그 파일에 적용되지 않았습니다."
+
+#: webadmin.cpp:1753
+msgid "Choose either IPv4 or IPv6 or both."
+msgstr "IPv4나 IPv6 또는 전부 고릅니다."
+
+#: webadmin.cpp:1770
+msgid "Choose either IRC or HTTP or both."
+msgstr "IRC나 HTTP 또는 전부 고릅니다."
+
+#: webadmin.cpp:1783 webadmin.cpp:1819
+msgid "Port was changed, but config file was not written"
+msgstr "포트가 바뀌였으나, 컨피그 파일에 적용되지 않았습니다."
+
+#: webadmin.cpp:1809
+msgid "Invalid request."
+msgstr "잘못된 요청입니다."
+
+#: webadmin.cpp:1823
+msgid "The specified listener was not found."
+msgstr "선택된 리스너를 찾을 수 없습니다."
+
+#: webadmin.cpp:2050
+msgid "Settings were changed, but config file was not written"
+msgstr "설정이 바뀌였으나, 컨피그 파일에 적용되지 않았습니다."
