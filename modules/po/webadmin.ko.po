@@ -264,7 +264,7 @@ msgstr ""
 
 #: modules/po/../data/webadmin/tmpl/settings.tmpl:164
 msgid "Global Modules"
-msgstr "글로벌 "
+msgstr "글로벌 모듈"
 
 #: modules/po/../data/webadmin/tmpl/settings.tmpl:170
 #: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:125
@@ -289,11 +289,11 @@ msgstr "설명"
 #: modules/po/../data/webadmin/tmpl/settings.tmpl:173
 #: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:172
 msgid "Loaded by networks"
-msgstr "네트워크로 로드됨."
+msgstr "네트워크 로드"
 
 #: modules/po/../data/webadmin/tmpl/settings.tmpl:174
 msgid "Loaded by users"
-msgstr "유저로 로드됨."
+msgstr "유저 로드"
 
 #: modules/po/../data/webadmin/tmpl/settings.tmpl:231
 #: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:419
@@ -462,7 +462,7 @@ msgstr "모듈"
 #: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:171
 #: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:219
 msgid "Loaded globally"
-msgstr "글로벌로 로드됨"
+msgstr "글로벌 로드"
 
 #: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:225
 #: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:164
@@ -621,7 +621,7 @@ msgstr "응답"
 
 #: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:366
 msgid "- Global -"
-msgstr "-  -글로벌"
+msgstr "- 글로벌 -"
 
 #: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:372
 msgid "No other skins found"
@@ -712,8 +712,8 @@ msgid ""
 "Nick, AltNick, Ident, RealName, BindHost can be left empty to use the value "
 "from the user."
 msgstr ""
-"닉네임, 보조닉네임, 이름, 진짜이름, BindHost는 빈 값으로 남겨놓을시 유저가 설"
-"정한 값으로 적용됩니다."
+"닉네임, 보조 닉네임, 이름, 진짜 이름, BindHost는 빈 값으로 남겨놓을시 유저가 "
+"설정한 값으로 적용됩니다."
 
 #: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:29
 msgid "Network Name:"
@@ -862,7 +862,7 @@ msgstr "← 채널 추가 (같은 페이지에서 열립니다)"
 
 #: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:220
 msgid "Loaded by user"
-msgstr "유저로 로드됨."
+msgstr "유저 로드"
 
 #: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:281
 msgid "Add Network and return"
@@ -904,11 +904,11 @@ msgstr "구동시간"
 
 #: modules/po/../data/webadmin/tmpl/traffic.tmpl:18
 msgid "Total Users"
-msgstr "유저 통계"
+msgstr "전체 유저"
 
 #: modules/po/../data/webadmin/tmpl/traffic.tmpl:22
 msgid "Total Networks"
-msgstr "네트워크 통계"
+msgstr "전체 네트워크"
 
 #: modules/po/../data/webadmin/tmpl/traffic.tmpl:26
 #: modules/po/../data/webadmin/tmpl/traffic.tmpl:43
@@ -917,11 +917,11 @@ msgstr "추가되있는 네트워크"
 
 #: modules/po/../data/webadmin/tmpl/traffic.tmpl:30
 msgid "Total Client Connections"
-msgstr "클라이언트 연결 통계"
+msgstr "전체 클라이언트 연결"
 
 #: modules/po/../data/webadmin/tmpl/traffic.tmpl:34
 msgid "Total IRC Connections"
-msgstr "IRC 연결 통계"
+msgstr "전체 IRC 연결"
 
 #: modules/po/../data/webadmin/tmpl/traffic.tmpl:47
 msgid "Client Connections"
@@ -936,7 +936,7 @@ msgstr "IRC 연결"
 #: modules/po/../data/webadmin/tmpl/traffic.tmpl:89
 #: modules/po/../data/webadmin/tmpl/traffic.tmpl:117
 msgid "Total"
-msgstr "통계"
+msgstr "전체 통계"
 
 #: modules/po/../data/webadmin/tmpl/traffic.tmpl:70
 #: modules/po/../data/webadmin/tmpl/traffic.tmpl:115
@@ -977,7 +977,7 @@ msgstr "{1} 유저를 삭제합니까?"
 
 #: webadmin.cpp:91 webadmin.cpp:1833
 msgid "Global Settings"
-msgstr "글로벌 "
+msgstr "글로벌 설정"
 
 #: webadmin.cpp:92
 msgid "Your Settings"
@@ -1026,7 +1026,7 @@ msgstr "당신을 지우지 마세요, 자살은 답이 아닙니다!"
 
 #: webadmin.cpp:691 webadmin.cpp:912 webadmin.cpp:1283
 msgid "Edit User [{1}]"
-msgstr "]{1}] 유저 편집 "
+msgstr "[{1}] 유저 편집 "
 
 #: webadmin.cpp:695 webadmin.cpp:941
 msgid "Edit Network [{1}]"
