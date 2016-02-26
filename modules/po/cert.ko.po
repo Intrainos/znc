@@ -11,6 +11,9 @@ msgstr ""
 "Last-Translator: Intrainos K. <i@intrainos.net>\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Language: ko\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: cert.cpp\n"
 
 #: cert.cpp:28
 msgid "Pem file deleted"
@@ -22,7 +25,7 @@ msgstr "PEM파일이 없거나 오류로 인해 PEM파일이 지워졌습니다.
 
 #: cert.cpp:38
 msgid "You have a certificate in {1}"
-msgstr "당신은 {} 안에 인증서를 가지고 있습니다."
+msgstr "당신은 {1} 에 인증서를 가지고 있습니다."
 
 #: cert.cpp:41
 msgid ""
@@ -33,9 +36,8 @@ msgstr ""
 "요."
 
 #: cert.cpp:45
-#, fuzzy
 msgid "Alternatively you can either place one at {1}"
-msgstr "또는 {1}에 있는 다른 장소에서 추가할 수 있습니다."
+msgstr "또는 {1} 에 있는 곳에서 추가할 수 있습니다."
 
 #: cert.cpp:53
 msgid "Delete the current certificate"

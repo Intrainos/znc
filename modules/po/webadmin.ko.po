@@ -191,7 +191,7 @@ msgstr "status와 모듈에 대한 프리픽스 입니다."
 
 #: modules/po/../data/webadmin/tmpl/settings.tmpl:105
 msgid "Default for new users only."
-msgstr "새로운 유저를 위한 기본설정용입니다."
+msgstr "새로운 유저를 위한 기본설정입니다."
 
 #: modules/po/../data/webadmin/tmpl/settings.tmpl:110
 msgid "Maximum Buffer Size:"
@@ -206,27 +206,25 @@ msgid "Connect Delay:"
 msgstr "연결 딜레이:"
 
 #: modules/po/../data/webadmin/tmpl/settings.tmpl:119
-#, fuzzy
 msgid ""
 "The time between connection attempts to IRC servers, in seconds. This "
 "affects the connection between ZNC and the IRC server; not the connection "
 "between your IRC client and ZNC."
 msgstr ""
-"몇 초마다 IRC서버에 연결을 시도합니다.. 이 값은 ZNC와 IRC서버간의 연결 시도입"
-"니다; ZNC와 IRC 서버간의 시도가 아닙니다."
+"IRC서버에 설정된 초만큼의 간격으로 연결을 시도합니다. 이 값은 ZNC와 IRC서버간"
+"의 연결 시도입니다;  ZNC와 IRC 클라이언트간의 시도가 아닙니다."
 
 #: modules/po/../data/webadmin/tmpl/settings.tmpl:124
 msgid "Server Throttle:"
-msgstr "서버 과부화:"
+msgstr "서버 과부화 값:"
 
 #: modules/po/../data/webadmin/tmpl/settings.tmpl:126
-#, fuzzy
 msgid ""
 "The minimal time between two connect attempts to the same hostname, in "
 "seconds. Some servers refuse your connection if you reconnect too fast."
 msgstr ""
-"같은 호스트네임을 가진 두 연결간의 최소간격의 시간입니다. 어떤 서버는 재접속"
-"이 너무 빠를경우 서버연결을 끊습니다."
+"같은 호스트 네임을 가진 두 연결간의 최소 시간 간격입니다. 어떤 서버는 재접속"
+"이 너무 빠를경우 서버 연결을 끊습니다."
 
 #: modules/po/../data/webadmin/tmpl/settings.tmpl:131
 msgid "Anonymous Connection Limit per IP:"
@@ -242,7 +240,7 @@ msgstr "보호된 웹 세션:"
 
 #: modules/po/../data/webadmin/tmpl/settings.tmpl:140
 msgid "Disallow IP changing during each web session"
-msgstr "거부된 IP를 바꾸면 모든 웹 세션이 바뀝니다."
+msgstr "사용시 거부된 IP를 바꾸면 모든 웹 세션이 바뀝니다."
 
 #: modules/po/../data/webadmin/tmpl/settings.tmpl:145
 msgid "Hide ZNC Version:"
@@ -250,7 +248,7 @@ msgstr "ZNC버전 숨기기:"
 
 #: modules/po/../data/webadmin/tmpl/settings.tmpl:147
 msgid "Hide version number from non-ZNC users"
-msgstr "ZNC유저가 아닌사람에게 버전을 숨깁니다."
+msgstr "ZNC유저가 아닌 사람에게 버전을 숨깁니다."
 
 #: modules/po/../data/webadmin/tmpl/settings.tmpl:152
 msgid "MOTD:"
@@ -260,11 +258,11 @@ msgstr "MOTD:"
 msgid "“Message of the Day”, sent to all ZNC users on connect."
 msgstr ""
 "“Message of the Day(오늘의 메세지)”입니다. 연결하는 모든 ZNC 유저들에게 보내"
-"집시다."
+"집니다."
 
 #: modules/po/../data/webadmin/tmpl/settings.tmpl:164
 msgid "Global Modules"
-msgstr "글로벌 모듈"
+msgstr "전역 모듈"
 
 #: modules/po/../data/webadmin/tmpl/settings.tmpl:170
 #: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:125
@@ -339,7 +337,7 @@ msgid ""
 "line, wildcards * and ? are available."
 msgstr ""
 "아무것도 입력하지 않으면 모든 IP에서 접속이 가능합니다..<br/>그렇지 않으면, "
-"한줄에 하나씩 입력하거나, 와일드카드 * 랑 ? 가 ."
+"한줄에 하나씩 입력하거나, 와일드카드 * 또는 ? 를 사용할 수 있습니다."
 
 #: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:56
 msgid "IRC Information"
@@ -350,8 +348,8 @@ msgid ""
 "Nick, AltNick, Ident, RealName and QuitMsg can be left empty to use default "
 "values."
 msgstr ""
-"닉네임, 보조 닉네임, 이름, 진짜 이름 및 나가는 메세지는 입력하지 않고 기본 값"
-"을 쓸 수 있습니다."
+"닉네임, 보조 닉네임, 식별자, 실제 이름 및 나가는 메세지는 입력하지 않고 기본 "
+"값을 쓸 수 있습니다."
 
 #: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:63
 #: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:35
@@ -378,21 +376,21 @@ msgstr ""
 #: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:74
 #: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:46
 msgid "Ident:"
-msgstr "이름:"
+msgstr "식별자:"
 
 #: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:76
 msgid "The Ident is sent to server as username."
-msgstr "서버에 유저네임으로 전송됩니다."
+msgstr "식별자는 서버에 유저의 네임으로 전송됩니다."
 
 #: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:85
 #: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:51
 msgid "Realname:"
-msgstr "진짜 이름:"
+msgstr "실제 이름:"
 
 #: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:87
 #: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:53
 msgid "Your real name."
-msgstr "IRC에서의 당신의 진짜 이름입니다."
+msgstr "IRC에서의 당신의 실제 이름입니다."
 
 #: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:93
 #: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:58
@@ -417,7 +415,7 @@ msgstr "만약 IRC에서 나갈때 에 매새지가 보여집니다."
 #: modules/po/../data/webadmin/tmpl/listusers.tmpl:17
 #: modules/po/../data/webadmin/tmpl/traffic.tmpl:39
 msgid "Networks"
-msgstr "네트워크:"
+msgstr "네트워크"
 
 #: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:126
 #: modules/po/../data/webadmin/tmpl/listusers.tmpl:18
@@ -462,7 +460,7 @@ msgstr "모듈"
 #: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:171
 #: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:219
 msgid "Loaded globally"
-msgstr "글로벌 로드"
+msgstr "전역 로드"
 
 #: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:225
 #: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:164
@@ -478,7 +476,7 @@ msgstr "ZNC가 만약 빈 채널에 들어갔을 경우 모드를 설정하는 �
 #: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:238
 #: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:257
 msgid "Empty = use standard value"
-msgstr "비었을 경우 값을 사용합니다."
+msgstr "비어있을 경우 기본 값을 사용합니다."
 
 #: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:237
 msgid ""
@@ -502,14 +500,13 @@ msgid "Maximum number of query buffers. 0 is unlimited."
 msgstr "최대 쿼리 버퍼 숫자입니다. 0은 무제한입니다."
 
 #: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:256
-#, fuzzy
 msgid ""
 "This is the amount of lines that the playback buffer will store for queries "
 "before dropping off the oldest line. The buffers are stored in the memory by "
 "default."
 msgstr ""
-"이 값은 얼마나 많은 줄의 오래된 쿼리 버퍼를 저장할지 설정합니다.버퍼는 기본적"
-"으로 매모리에 저장됩니다."
+"이 값은 얼마나 많이 오래된 쿼리 버퍼의 줄 수를 저장할지 설정합니다. 버퍼는 기"
+"본적으로 매모리에 저장됩니다."
 
 #: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:279
 msgid "ZNC Behavior"
@@ -518,25 +515,21 @@ msgstr "ZNC 행동"
 #: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:280
 msgid ""
 "Any of the following text boxes can be left empty to use their default value."
-msgstr ""
-"Any of the following text boxes can be left empty to use their default "
-"value.\n"
-"이 항목의 모든 텍스트 박스들은 전부 남겨놓으면 기본 값으로 설정됩니다."
+msgstr "이 항목의 모든 텍스트 박스들은 전부 남겨놓으면 기본 값으로 설정됩니다."
 
 #: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:284
 msgid "Timestamp Format:"
 msgstr "타임스탬프 표기법:"
 
 #: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:286
-#, fuzzy
 msgid ""
 "The format for the timestamps used in buffers, for example [%H:%M:%S]. This "
 "setting is ignored in new IRC clients, which use server-time. If your client "
 "supports server-time, change timestamp format in client settings instead."
 msgstr ""
-"버퍼에서 사용할 타임스탬프 포멧입니다, 예를 들어서 [%H:%M:%S]. 이설정은 새  "
-"IRC 클라이언트에서는 무시됩니다, 만약 클라이언트에서 server-time을 지원해서 "
-"사용하실경우 타임스탬프는 클라이언트 설정으로 대채됩니다."
+"버퍼에서 사용할 타임스탬프 포맷입니다. 이 설정은 최근 출시된 IRC 클라이언트에"
+"서는 보통 무시됩니다, 만약 클라이언트에서 IRCv3 server-time을 지원해서 사용하"
+"실경우 클라이언트의 타임스탬프 설정으로 대채됩니다."
 
 #: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:289
 msgid "Timezone:"
@@ -589,13 +582,12 @@ msgstr "이 유저에 대한 최대 IRC 네트워크 접속가능 숫자입니�
 
 #: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:321
 msgid "Substitutions"
-msgstr "대채"
+msgstr "확장 가능한 문자열"
 
 #: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:323
 #: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:331
-#, fuzzy
 msgid "CTCP Replies:"
-msgstr "CTCP 답:"
+msgstr "CTCP 요청:"
 
 #: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:327
 msgid "One reply per line. Example: <code>TIME Buy a watch!</code>"
@@ -604,12 +596,11 @@ msgstr "줄당 한개의 응답. 예: <code>TIME Buy a watch!</code>"
 #: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:328
 #: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:344
 msgid "{1} are available"
-msgstr "{1}은(는) 사용가능합니다."
+msgstr "{1}을 사용할 수 있습니다."
 
 #: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:330
-#, fuzzy
 msgid "Empty value means this CTCP request will be ignored"
-msgstr "없는 값의 경우 이 CTCP 요청은 무시될것 입니다."
+msgstr "값이 없는 경우 이 CTCP 요청은 무시될 것 입니다."
 
 #: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:336
 msgid "Request"
@@ -621,7 +612,7 @@ msgstr "응답"
 
 #: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:366
 msgid "- Global -"
-msgstr "- 글로벌 -"
+msgstr "- 전역 설정 -"
 
 #: modules/po/../data/webadmin/tmpl/add_edit_user.tmpl:372
 msgid "No other skins found"
@@ -701,7 +692,7 @@ msgid ""
 "password field as <code>{1}</code> or username field as <code>{2}</code>"
 msgstr ""
 "IRC클라이언트에서 네트워크로 접속을 하실때, 서버 비밀번호칸에 <code>{1}</"
-"code> 로 설정하시거나 또는 유저네임에 <code>{2}</code>로 하실 수 있습니다."
+"code> 로 설정하시거나 또는 식별자에 <code>{2}</code>로 하실 수 있습니다."
 
 #: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:24
 msgid "Network Info"
@@ -785,7 +776,7 @@ msgstr "사용됨"
 
 #: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:122
 msgid "Flood protection rate:"
-msgstr "플러드 보호 시작 값:"
+msgstr "플러드 보호 값:"
 
 #: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:125
 msgid ""
@@ -797,9 +788,8 @@ msgid "{1} seconds per line"
 msgstr "{1} 초당 한줄"
 
 #: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:132
-#, fuzzy
 msgid "Flood protection burst:"
-msgstr "돌발 플러드 보호:"
+msgstr "플러드 보호 시작값:"
 
 #: modules/po/../data/webadmin/tmpl/add_edit_network.tmpl:135
 msgid ""
@@ -977,7 +967,7 @@ msgstr "{1} 유저를 삭제합니까?"
 
 #: webadmin.cpp:91 webadmin.cpp:1833
 msgid "Global Settings"
-msgstr "글로벌 설정"
+msgstr "전역 설정"
 
 #: webadmin.cpp:92
 msgid "Your Settings"
@@ -1147,9 +1137,8 @@ msgid "Append Timestamps"
 msgstr "타임스탬프 추가"
 
 #: webadmin.cpp:1497
-#, fuzzy
 msgid "Prepend Timestamps"
-msgstr "앞에 타임스탬프 추가"
+msgstr "미리 타임스탬프 추가하기"
 
 #: webadmin.cpp:1505
 msgid "Deny LoadMod"

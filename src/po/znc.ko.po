@@ -11,6 +11,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.6\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: src\n"
+"X-Poedit-SearchPath-2: modules\n"
+"X-Poedit-SearchPath-3: src\n"
 
 #: webskins/_default_/tmpl/index.tmpl:6
 msgid "Welcome to ZNC's web interface!"
@@ -32,9 +37,8 @@ msgid "-Guest-"
 msgstr "-게스트-"
 
 #: webskins/_default_/tmpl/InfoBar.tmpl:5
-#, fuzzy
 msgid "Logged in as: {1} (from {2})"
-msgstr "로그인 됨: {1} ({2} 에서)"
+msgstr "현재 로그인 상태: {1} (IP {2} 에서)"
 
 #: webskins/_default_/tmpl/Menu.tmpl:4
 msgid "Home"
@@ -69,9 +73,8 @@ msgid "You are not on [{1}]"
 msgstr "[{1}]안에 있지않습니다."
 
 #: ClientCommand.cpp:70
-#, fuzzy
 msgid "You are not on [{1}] (trying)"
-msgstr "[{1}]안에 있지않습니다. (시도)"
+msgstr "[{1}]안에 있지않습니다. (시도중)"
 
 #: ClientCommand.cpp:79
 msgid "No nicks on [{1}]"
