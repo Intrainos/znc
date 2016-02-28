@@ -2,15 +2,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: znc 1.7.x\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
+"PO-Revision-Date: 2016-02-28 02:23+0000\n"
+"Last-Translator: Intrainos K. <i@intrainos.net>\n"
 "Language-Team: Korean\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.6\n"
-"Last-Translator: Intrainos K. <i@intrainos.net>\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Language: ko\n"
+"X-Generator: Weblate 2.5-dev\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: cert.cpp\n"
@@ -25,19 +25,17 @@ msgstr "PEM파일이 없거나 오류로 인해 PEM파일이 지워졌습니다.
 
 #: cert.cpp:38
 msgid "You have a certificate in {1}"
-msgstr "당신은 {1} 에 인증서를 가지고 있습니다."
+msgstr "당신은 {1} 에 인증서를 가지고 있습니다"
 
 #: cert.cpp:41
 msgid ""
 "You do not have a certificate. Please use the web interface to add a "
 "certificate"
-msgstr ""
-"당신은 인증서를 가지고 있지 않습니다. 웹 인터페이스에서 인증서를 추가해주세"
-"요."
+msgstr "당신은 인증서를 가지고 있지 않습니다. 웹 인터페이스에서 인증서를 추가해주세요"
 
 #: cert.cpp:45
 msgid "Alternatively you can either place one at {1}"
-msgstr "또는 {1} 에 있는 곳에서 추가할 수 있습니다."
+msgstr "또는 {1} 에 있는 곳에서 추가할 수 있습니다"
 
 #: cert.cpp:53
 msgid "Delete the current certificate"
@@ -53,7 +51,7 @@ msgstr "인증서"
 
 #: cert.cpp:106
 msgid "Use a ssl certificate to connect to a server"
-msgstr "서버와 연결할때 SSL 인증서를 사용 합니다."
+msgstr "서버와 연결할때 SSL 인증서를 사용 합니다"
 
 #: modules/po/../data/cert/tmpl/index.tmpl:5
 msgid "here"
